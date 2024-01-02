@@ -6,12 +6,15 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    extend: {},
+    fontFamily: {
+      lexend: 'Lexend'
+    },
+    screens:{
+      sm: '480px',
+      md: '1335px',
+      lg: '1340px',
+      xl: '1440px'
     },
   },
   plugins: [],

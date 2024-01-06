@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .header{
-  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  background-image: linear-gradient(0deg,#0f051d 30%,#130749 70%);
 }
 
 .hero{
@@ -13,6 +13,12 @@
 
 .form{
   background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+.market{
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .hover-underline-animation {

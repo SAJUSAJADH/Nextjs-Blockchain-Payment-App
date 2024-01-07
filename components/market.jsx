@@ -65,7 +65,7 @@ export const Market = () => {
 
     return(
         <>
-            <div className="container mx-auto pt-10 lg:pt-32 py-6 px-8">
+            <div className="container mx-auto pt-28 lg:pt-48 py-6 px-8">
                 <p className="text-3xl lg:text-8xl font-lexend font-bold text-white text-center">
                     TRACK AND TRADE
                 </p>

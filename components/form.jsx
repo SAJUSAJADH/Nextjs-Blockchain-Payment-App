@@ -59,7 +59,7 @@ export const Form = () => {
 
             <div className=" w-full justify-start px-2">
             <div className="flex items-center justify-center">
-        <div className="p-6 rounded shadow-md w-full md:max-w-md form"> 
+        <div className="p-6 rounded-xl shadow-md w-full md:max-w-md form"> 
           <form onSubmit={makeTransaction}>
             <div className="mb-4">
             <input
@@ -103,7 +103,7 @@ export const Form = () => {
                 />
             </div>
   
-            <button type="submit" className="bg-blue-600 text-white p-2 rounded-md" disabled={!connectedAccounts}>{Loading ? 'Sending...' : 'Send Now'}</button>
+            <button type="submit" className="button-clr text-white p-2 rounded-md" disabled={!connectedAccounts}>{Loading ? 'Sending...' : 'Send Now'}</button>
           </form>
         </div>
       </div>

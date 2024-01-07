@@ -15,8 +15,8 @@ export default function Home() {
       <Market/>
       <Hero/>
       <div className='grid lg:grid-cols-2 pt-8 gap-6 lg:gap-3 px-2 lg:px-32'>
-        <div className='lg:mt-10'><Uses/></div>
-        <div className=''><Form/></div>
+        <div className='lg:mt-10 order-last lg:order-1'><Uses/></div>
+        <div className='lg:order-2'><Form/></div>
       </div>
       <Services/>
       <Footer/>

@@ -25,7 +25,7 @@ export const Header = () => {
 
 
     return(
-        <nav  className=" mx-auto p-6 px-8 lg:px-32 w-full flex justify-between items-center">
+        <nav  className="fixed nav z-40 mx-auto p-6 px-8 lg:px-32 w-full flex justify-between items-center">
                 <a href='/' className="font-bold italic text-3xl text-white  font-mono tracking-widest cursor-pointer">ChainPay</a>
                 <div className="hidden md:flex space-x-16 text-white justify-between">
                     <a href='https://coinmarketcap.com/currencies/ethereum/' target='_blank' className="hover-underline-animation tracking-widest cursor-pointer py-2 font-lexend text-lg">Market</a>

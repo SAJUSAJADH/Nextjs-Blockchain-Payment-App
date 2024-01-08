@@ -42,54 +42,6 @@ pnpm dev
 bun dev
 
 
-Certainly! Here's the README content in markdown format:
-
-markdown
-Copy code
-# Next.js Blockchain Payment Application
-
-![Technoobs Logo](https://sajadh.vercel.app/assets/technoobs-f660ae19.png)
-
-Welcome to the Next.js Blockchain Payment Application repository! This project is a robust blockchain payment application developed on the Ethereum platform, aiming to provide users with a seamless and secure method for sending ERC-20 tokens globally.
-
-## Key Features
-
-- **Blockchain Transactions:**
-  - Developed a secure payment application on the Ethereum platform.
-  - Enabled users to send ERC-20 tokens globally, fostering a borderless and accessible financial ecosystem.
-
-- **Real-time Cryptocurrency Values:**
-  - Integrated Moralis APIs to display real-time values of various cryptocurrencies within the application, keeping users informed about the latest market trends.
-
-- **Smart Contract Development:**
-  - Utilized Solidity for smart contract development, ensuring the security and efficiency of transactions on the Ethereum blockchain.
-
-- **Ethers.js Integration:**
-  - Integrated the Ethers.js library to streamline interactions with the Ethereum blockchain, enhancing transaction efficiency and reliability.
-
-- **Hardhat Development Environment:**
-  - Employed Hardhat as the blockchain development environment, ensuring a robust and standardized framework for smart contract testing, compilation, and deployment.
-
-- **Modern Technology Stack:**
-  - Leveraged a modern technology stack including Next.js, React.js, and Tailwind CSS to create an intuitive and responsive user interface.
-
-- **Community Collaboration:**
-  - Proactively fostered a community of developers, encouraging collaborative contributions for continuous improvement and growth in the project.
-
-## Getting Started
-
-To run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-
-
 Open http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.js. The page auto-updates as you edit the file.
 
 Learn More

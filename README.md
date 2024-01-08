@@ -1,6 +1,6 @@
 # Next.js Blockchain Payment Application
 
-![Technoobs Logo](https://sajadh.vercel.app/assets/technoobs-f660ae19.png)
+![Technoobs Logo](http://localhost:5173/@fs/C:/Users/HP/Downloads/Portfolio-master/client/src/assets/chainpay.png)
 
 Welcome to the Next.js Blockchain Payment Application repository! This project is a robust blockchain payment application developed on the Ethereum platform, aiming to provide users with a seamless and secure method for sending ERC-20 tokens globally.
 

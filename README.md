@@ -1,4 +1,4 @@
-# Next.js Blockchain Payment Application
+# *Next.js Blockchain Payment Application*
 
 ![chainpay Logo](https://sajadh.vercel.app/assets/chainpay-da3d85e6.png)
 
@@ -27,6 +27,12 @@ Welcome to the Next.js Blockchain Payment Application repository! This project i
 
 - **Community Collaboration:**
   - Proactively fostered a community of developers, encouraging collaborative contributions for continuous improvement and growth in the project.
+
+  ###  Facilitates the seamless transfer of funds between users.
+      - Intuitive interface for sending funds.
+      - Instant notifications for successful transactions.
+  
+  ![chainpay module](https://i.ibb.co/d7cts8t/Screenshot-24.png)
 
 ## Getting Started
 

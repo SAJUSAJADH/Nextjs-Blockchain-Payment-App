@@ -10,7 +10,7 @@ export const Header = () => {
         return (
           <ConnectButton
             label="Connect"
-            showBalance="false"
+            showBalance={{ smallScreen: false, largeScreen: true }}
             accountStatus="address"
             chainStatus={{ smallScreen: "none", largeScreen: "full" }}
           />
@@ -19,7 +19,7 @@ export const Header = () => {
 
 
     return(
-        <nav  className="fixed nav z-40 mx-auto p-6 px-8 lg:px-32 w-full flex justify-between items-center">
+        <nav  className="fixed nav z-40 mx-auto p-6 px-2 lg:px-32 w-full flex justify-between items-center">
                 <a href='/' className="font-bold italic text-3xl text-white  font-mono tracking-widest cursor-pointer">ChainPay</a>
                 {connectButton()}
         </nav>

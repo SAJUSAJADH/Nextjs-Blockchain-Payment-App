@@ -1,13 +1,29 @@
 'use client'
 
-import React, { useState, useContext } from 'react'
-import { TransactionContext } from '../context/TransactionContext'
+import React from 'react'
+
 import Image from 'next/image'
 import { shortenAddress } from '../utils/shortenAddress'
+import { useAccount } from 'wagmi'
+import { ConnectButton } from '@rainbow-me/rainbowkit'
+
 
 export const Hero = () => {
 
-    const { connectWallet, connectedAccounts } = useContext(TransactionContext) 
+    const { address, isConnected } = useAccount()
+
+
+    const connectButton = () => {
+        return (
+          <ConnectButton
+            label="Get Started"
+            showBalance="false"
+            accountStatus="address"
+            chainStatus={{ smallScreen: "none", largeScreen: "full" }}
+          />
+        );
+      };
+
 
     return(
         <div className="grid lg:grid-cols-2 pt-10 lg:pt-32 py-6 px-8 lg:px-32 gap-6">
@@ -19,8 +35,8 @@ export const Hero = () => {
                     Explore the Crypto world. Buy and Sell CryptoCurrencies easily.
                 </p>
                 <div className='flex justify-center lg:justify-start'>
-                {!connectedAccounts &&
-                    <button onClick={connectWallet} className='px-10 py-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white mx-2 tracking-widest text-xl font-lexend'>Get Started</button>
+                {!isConnected &&
+                    connectButton()
                 }
                 </div>
             </div>
@@ -31,7 +47,7 @@ export const Hero = () => {
                         <Image className='w-[25px] h-[25px] pe-2 pt-2 cursor-pointer' src='/i.png' width={25} height={25} alt="i"/>
                     </div>
                     <div className='ps-2 mt-16'>
-                        <p className='text-white italic text-lg'>{connectedAccounts ? shortenAddress(connectedAccounts) : 'Address'}</p>
+                        <p className='text-white italic text-lg'>{isConnected ? shortenAddress(address) : 'Address'}</p>
                         <h1 className='font-bold text-xl text-white tracking-widest'>Ethereum</h1>
                     </div>
                 </div>
